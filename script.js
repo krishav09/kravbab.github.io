@@ -1,4 +1,4 @@
-let establishedDate = new Date("November 30, 2022").getTime();
+let establishedDate = new Date("December 1, 2022").getTime();
 
 function startTimer() {
     let currentDate = new Date().getTime();
