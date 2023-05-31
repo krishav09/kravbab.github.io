@@ -1,106 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-
-
-*{
-    background-color: blueviolet;
-    padding: 0;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-}
-
-header {
-    margin-top: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 70px; /* Adjust this value as needed */
-}
-
-header img {
-	max-width: 100%;
-	max-height: 100%;
-}
-main{
-    margin-top: 10%;
-}
-.timer {
-    user-select: none;
-    margin-left: 28%;
-    font-family: barlow;
-	font-size: 100px;
-    color: white;
-}
-.tag{
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ff66a3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .flex-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-family: Delicious Handrawn;
-	font-size: 30px;
-    color: white;
-}
-
-span {
-	color: #fff;
-}
-.down_name{
-    margin-left: 30%;
-    font-family: Abel;
-}
-
-.d{
-    margin-left: 15.5%;
-}
-
-.h{
-    margin-left: 15%;
-}
-
-.s{
-    margin-left: 13%;
-}
-
-footer{
-    margin-top: 10%;
-}
-footer h3{
-    color: white;
-    margin-left: 40%;
-}
-.search-box {
-    display: flex;
     align-items: center;
-    width: 300px;
-    max-width: 100%;
-    margin: 0 auto;
+    margin-top: 50px;
   }
   
-  input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    font-size: 18px;
-    outline: none;
-    border: 2px solid white;
-    color: white;
-    border-radius: 5px;
-    background-color: transparent;
-  }
-  ::placeholder {
-    color: white;
+  .flex-item {
+    text-align: center;
+    margin: 20px;
   }
   
-  button[type="submit"] {
-    font-size: 18px;
-    background-color: #46009d;
-    color: white;
-    height: 50px;
-    width: 60px;
+  .circle {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: #ff99cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
   }
   
-  button[type="submit"]:hover {
-    background-color: #7100fc;
+  .photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
   }
   
