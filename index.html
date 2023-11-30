@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Its Time 12:00</title>
   <link rel="stylesheet" href="style.css">
-  <title>Our Home Page</title>
 </head>
-<body>
+
+<body bgcolor="blueviolet">
   <header>
-    <h1>Welcome to Our Home Page</h1>
-  </header>
-
-  <main>
-    <section class="flex-container">
-      <div class="flex-item">
-        <div class="circle">
-          <img src="you.jpg" alt="Your Photo" class="photo">
+    <img src="Krav.png">
+</header>
+  <center>
+    <div class="centered-box">
+      <div id="first">
+        <div id="camera-container">
+          <div class="typing-text">Let Me Scan You To See You're BUBU Or Not</div>
+          <video id="camera-feed" width="300" height="225" autoplay></video>
+          <img id="captured-photo" style="display: none;">
+          <button id="photo-button">Take Photo</button>
+          
+          
+          <a id="download-button" download="captured_photo.png">Download Photo by clicking here and send to krishav</a>
+          <button id="next">BUBU Conform, Let's Go</button>
         </div>
-        <h2>Your Name</h2>
-        <p>Text about yourself...</p>
       </div>
-      <div class="flex-item">
-        <div class="circle">
-          <img src="girlfriend.jpg" alt="Girlfriend's Photo" class="photo">
-        </div>
-        <h2>Girlfriend's Name</h2>
-        <p>Text about your girlfriend...</p>
+      <div id="last">
+        <div class="typing-text">Hello Bubu, we have successfully passed our one year</div>
+        <img src="pixil-gif-drawing.gif" alt="" srcset="">
+        <br>
+        <button id="btn">Let's Start Another Year</button>
       </div>
-    </section>
-  </main>
+    </div>
 
-  <script src="script.js"></script>
+
+  </center>
+
+
+
+
+
+  <div class="floating-menu">
+    <a href="index.html" class="menu-item">
+      <img src="gallery/home.png" alt="Home" id="home" class="menu-icon">
+    </a>
+    <a href="gallery.html" class="menu-item">
+      <img src="gallery/gallery.png" alt="Gallery" id="gallery" class="menu-icon">
+    </a>
+    <a href="timmer.html" class="menu-item">
+      <img src="gallery/timmer.png" alt="Timer" id="timmer" class="menu-icon">
+    </a>
+  </div>
 </body>
+
 </html>
+<script src="script.js"></script>
