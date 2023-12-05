@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.base {
+    position: absolute;
+    top: 70%;
+    height: 210px;
+    width: 100%;
+    background-color: #363537;
+}
+
+#canvas {
+    margin-left: 20px;
+    position: absolute;
+    top: 48.5%;
+}
+
+.glowing-rectangle {
+    position: absolute;
+    top: 60%;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    /* Green background color */
+    border-radius: 10px;
+    /* Optional: add rounded corners */
+    box-shadow: 0 0 10px 5px #ffffff;
+}
+
+.start_txt {
+
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    position: absolute;
+    top: 55%;
+    margin-left: 20px;
+}
+
+
+.nextTo2 {
+    position: absolute;
+    top: 60%;
+    left: 93%;
+    width: 80px;
+    height: 80px;
+    background-color: #4400ff;
+    /* Green background color */
+    border-radius: 10px;
+    /* Optional: add rounded corners */
+    box-shadow: 0 0 10px 5px #4400ff;
+}
+
+.next_txt {
+
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 94%;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    align-items: center;
+    color: white;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.ad {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    height: 150px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+#level_1 {
+    transition: opacity 10s ease-in-out;
+}
+
+#level_2{
+    
+    transition: opacity 10s ease-in-out;
+    display: none;
+}
+
+.portfolio_img{
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    height: 450px;
+    width: 450px;
+}
